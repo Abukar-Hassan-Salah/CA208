@@ -3,7 +3,7 @@ var eventEmitter = new events.EventEmitter();
 
 //Create an event handler:
 var myEventHandler = function () {
-  console.log('I hear a scream!');
+  console.log('The Event Excuted!');
 }
 
 //Assign the event handler to an event:
