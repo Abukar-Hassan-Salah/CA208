@@ -55,7 +55,7 @@ class TodoList {
       console.log('Shaqadaan lama helin!');
     }
   }
-
+// this is for showing what is in our dolist looking for its length
   showTodos() {
     if (this.todos.length === 0) {
       console.log('Shaqadaan lama helin!');
