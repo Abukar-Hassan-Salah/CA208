@@ -22,7 +22,7 @@ function KacodsoUerka() {
   rl.question('Soo Geli Ficilka: ', (choice) => {
     switch (choice) {
       case 'add':
-        rl.question('Soo geli Wax to dolist laga dhigayo: ', (Task) => {
+        rl.question('Soo geli Wax to dolist laga Daraayo: ', (Task) => {
                 if (Task.trim() === '') {
                   console.log('wax kuma jiraan todo listigaaa!');
                   
