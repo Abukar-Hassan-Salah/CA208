@@ -1,3 +1,4 @@
+// this creating our file system to work and use our paths
 const fs = require('fs');
 const { normalize } = require('path');
 
