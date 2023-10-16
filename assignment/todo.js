@@ -39,7 +39,11 @@ class TodoList {
     const todo = this.todos.find((t) => t.id === id);
     if (todo) {
       todo.Task = Task;
-      
+      try {
+        fs.writeFileSync('data.json', JSON.stringify(this.todos, null, 2), 'utf8');
+      } catch (err) {
+        console.log('Error saving Task data:', err.message);
+      }
       console.log('Si Saxan Ayaa Loo Cusbooneysiyey!!!');
     } else {
       console.log('Lama Helin Shaqadaan!');
